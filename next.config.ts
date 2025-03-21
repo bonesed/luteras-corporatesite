@@ -1,11 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // Next.jsの静的エクスポートを有効化
+  output: "export",
   images: {
-    unoptimized: true, // 画像最適化を無効化（エラー回避）
+    unoptimized: true, // 画像最適化を無効化
   },
 };
 
 export default nextConfig;
+
 
