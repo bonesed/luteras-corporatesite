@@ -1,10 +1,10 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: "export", // ✅ これを追加する！
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
 };
 
 export default nextConfig;
+
 
 
 
