@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-  images: {
-    unoptimized: true, // 画像最適化を無効化
-  },
+  output: "export", // ✅ これを追加する！
 };
 
 export default nextConfig;
+
 
 
