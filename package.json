@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export"
+    "export": "next export"
   },
   "dependencies": {
     "lucide-react": "^0.483.0",
@@ -27,14 +27,7 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   }
-  "scripts": {
-  "dev": "next dev --turbopack",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "export": "next export"
 }
 
-}
 
 
