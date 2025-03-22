@@ -18,16 +18,17 @@ const config = {
   			'2xl': '1400px'
   		}
   	},
-  	extend: {
-  		fontFamily: {
-  			sans: [
-  				'var(--font-noto-sans-jp)'
-  			],
-  			heading: [
-  				'var(--font-montserrat)',
-  				'var(--font-noto-sans-jp)'
-  			]
-  		},
+fontFamily: {
+  sans: [
+    'var(--font-noto-sans-jp)'
+  ],
+  heading: [
+    'var(--font-montserrat)',
+    'var(--font-noto-sans-jp)'
+  ],
+  geist: ['Geist', 'sans-serif'] // ← これを追加
+},
+
   		colors: {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
