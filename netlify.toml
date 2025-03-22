@@ -1,10 +1,12 @@
 [build]
-command = "npm run build"
-publish = ".next"
+  command = "npm run build"
+  publish = ".next"
+  framework = "next" # ← NetlifyにNext.jsと教えてあげる
 
 [functions]
-node_bundler = "esbuild"
+  node_bundler = "esbuild"
 
 [[plugins]]
-package = "@netlify/plugin-nextjs"
+  package = "@netlify/plugin-nextjs"
+
 
