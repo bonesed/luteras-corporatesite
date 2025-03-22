@@ -57,7 +57,6 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
-}
 
 
   * {
@@ -77,7 +76,7 @@
   .font-heading {
     font-family: var(--font-montserrat), var(--font-noto-sans-jp), sans-serif;
   }
-
+}
   /* 追加のスタイル */
   h1,
   h2,
