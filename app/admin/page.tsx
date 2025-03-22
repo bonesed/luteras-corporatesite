@@ -83,8 +83,13 @@ export default function AdminPage() {
   type Blog = {
   id: number;
   title: string;
+  excerpt: string;
+  category: string;
+  date: string;
+  status: string;
   content: string;
 };
+
 
 const handleEditBlog = (blog: Blog) => {
   setSelectedBlog(blog);
