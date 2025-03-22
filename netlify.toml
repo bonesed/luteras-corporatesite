@@ -7,3 +7,6 @@ directory = "netlify/functions"
 
 [build.environment]
 NEXT_PRIVATE_SRC_DIR = "src"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
