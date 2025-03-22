@@ -35,6 +35,7 @@ export default function AdminPage() {
       category: "AI",
       date: "2023年12月1日",
       status: "公開",
+      content: "ここに本文が入ります"
     },
     {
       id: 3,
@@ -43,6 +44,7 @@ export default function AdminPage() {
       category: "フィットネス",
       date: "2023年11月15日",
       status: "公開",
+      content: "ここに本文が入ります"
     },
     {
       id: 4,
@@ -51,6 +53,7 @@ export default function AdminPage() {
       category: "お知らせ",
       date: "2023年12月20日",
       status: "下書き",
+      content: "ここに本文が入ります"
     },
   ]
 
