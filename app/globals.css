@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://geisthub.vercel.app/font.css');
 
 @layer base {
   :root {
