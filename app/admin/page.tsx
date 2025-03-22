@@ -21,11 +21,12 @@ export default function AdminPage() {
   const blogPosts = [
     {
       id: 1,
-      title: "健康管理アプリの最新トレンド",
-      excerpt: "健康管理アプリの最新トレンドと今後の展望について解説します。",
-      category: "健康",
-      date: "2023年12月15日",
-      status: "公開",
+    title: "健康管理アプリの最新トレンド",
+    excerpt: "健康管理アプリの最新トレンドと今後の展望について解説します。",
+    category: "健康",
+    date: "2023年12月15日",
+    status: "公開",
+    content: "ここに本文が入ります"
     },
     {
       id: 2,
