@@ -8,7 +8,7 @@
     "paths": {
       "@/*": ["./*"]
     },
-    "allowJs": true, ← ← ← ✅ここに , 忘れがち
+    "allowJs": true,
     "esModuleInterop": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
