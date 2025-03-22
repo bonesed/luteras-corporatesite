@@ -31,10 +31,24 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 })
 
+import type { Metadata } from "next"
+import "./globals.css"
+
 export const metadata: Metadata = {
   title: "ルテラス | 健康とテクノロジーの融合",
-  description:
-    "ルテラスは、健康コミュニティアプリ「ウェルテラス」の運営からAIチャットボット導入支援まで、お客様の課題解決に貢献します。",
+  description: "ルテラスは、健康とテクノロジーの融合によって〜",
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="ja">
+      <body>{children}</body>
+    </html>
+  )
 }
 
 export default function RootLayout({
