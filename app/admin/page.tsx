@@ -80,10 +80,17 @@ export default function AdminPage() {
     },
   ]
 
-  const handleEditBlog = (blog) => {
-    setSelectedBlog(blog)
-    setIsEditing(true)
-  }
+  type Blog = {
+  id: number;
+  title: string;
+  content: string;
+};
+
+const handleEditBlog = (blog: Blog) => {
+  setSelectedBlog(blog);
+  setIsEditing(true);
+};
+
 
   return (
     <div className="flex min-h-screen flex-col">
