@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
   "dev": "next dev --turbopack",
   "build": "next build",
   "start": "next start",
@@ -29,6 +30,12 @@
   "build": "next build",
   "start": "next start -p 4000"
 },
+=======
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000"
+  },
+>>>>>>> 9806edd505c1efdd7d37532a4c6894c3f9f638b5
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-checkbox": "^1.0.4",
@@ -44,15 +51,15 @@
     "clsx": "^2.0.0",
     "lucide-react": "^0.294.0",
     "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "tailwind-merge": "^2.1.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
@@ -63,3 +70,8 @@
 }
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 9806edd505c1efdd7d37532a4c6894c3f9f638b5
