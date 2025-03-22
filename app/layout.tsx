@@ -33,6 +33,12 @@ export default function RootLayout({
         {/* 👇このまま全文ペーストでOK（今のヘッダー・フッター含めて動作保証） */}
         {/* 以下略：今のヘッダー〜footer〜scriptまで全部そのままコピペでOK！ */}
         {/** ここに今のmain, header, footer 全部入れてください */}
+        {/* 👇ここに貼り戻し！！ */}
+<header>...</header>
+<main>{children}</main>
+<footer>...</footer>
+<script dangerouslySetInnerHTML={...} />
+
 
         <main>{children}</main>
       </body>
