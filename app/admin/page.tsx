@@ -15,7 +15,7 @@ import { PlusCircle, Pencil, Trash2, Eye, Upload, Save, MoreHorizontal, Search }
 export default function AdminPage() {
   const [selectedTab, setSelectedTab] = useState("dashboard")
   const [isEditing, setIsEditing] = useState(false)
-  const [selectedBlog, setSelectedBlog] = useState(null)
+  const [selectedBlog, setSelectedBlog] = useState<Blog | null>(null)
 
   // ダミーデータ
   const blogPosts = [
