@@ -29,6 +29,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja" className={`scroll-smooth ${notoSansJP.variable} ${montserrat.variable}`}>
+      <link rel="stylesheet" href="https://geisthub.vercel.app/font.css" />
+
       <body className="font-geist">
         {/* ヘッダー */}
         <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
