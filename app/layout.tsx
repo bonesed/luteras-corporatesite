@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 export default function RootLayout({
   children,
 }: {
@@ -9,7 +9,7 @@ export default function RootLayout({
       <body>{children}</body>
     </html>
   );
-=======
+
 import type React from "react"
 import type { Metadata } from "next"
 import { Noto_Sans_JP, Montserrat } from "next/font/google"
@@ -301,6 +301,5 @@ export default function RootLayout({
       </body>
     </html>
   )
->>>>>>> 1da833a72d1fce1e48f0df2f27f42a30c5644ff4
 }
 
