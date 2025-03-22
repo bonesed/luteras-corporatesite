@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 export default function Home() {
   return (
     <main>
@@ -7,7 +7,7 @@ export default function Home() {
     </main>
   );
 }
-=======
+
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, CheckCircle, ChevronRight, ArrowUpRight } from "lucide-react"
@@ -989,4 +989,3 @@ export default function Home() {
   }}
 />
 
->>>>>>> 1da833a72d1fce1e48f0df2f27f42a30c5644ff4
